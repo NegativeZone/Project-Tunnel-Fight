@@ -2,6 +2,11 @@ Project Tunnel Fight Design Document :
 
  - Two Levels
    - One linear level, three rooms
+     - 3x3 room, 1x1 hallway going up, 5x5 room, 1x1 hallway going right, 5x5 room
+	   - 3x3 room is 3x3 floor, 5 wall left/right, 4 wall down, 2 wall up (hole in the middle for another floor tile)
+	   - 5x5 array of tiles
+	     - tile data - tile type, tile occupied...
+	   - level logic stores room transition rules
    - One branching level, five rooms
  - One Boss Room
  - Two character choices
