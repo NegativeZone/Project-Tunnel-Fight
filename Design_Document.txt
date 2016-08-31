@@ -1,0 +1,13 @@
+Project Tunnel Fight Design Document :
+
+ - Two Levels
+   - One linear level, three rooms
+   - One branching level, five rooms
+ - One Boss Room
+ - Two character choices
+   - melee
+   - ranged
+ - Three kinds of baddies
+   - melee
+   - ranged
+   - armored (melee with +hp, different model)
