@@ -3,9 +3,9 @@ using System.Collections;
 
 public class Tile {
 
-	public enum TileType { Floor, Wall };
+	public enum TileType { Empty, Floor, Wall };
 
-	TileType type;
+	TileType type = TileType.Empty;
 
 	public TileType Type {
 		get {
@@ -16,7 +16,8 @@ public class Tile {
 		}
 	}
 
-	Room room;
+	Player player;
+	Level level;
 
 	int x;
 
@@ -34,12 +35,9 @@ public class Tile {
 		}
 	}
 
-	Player player;
-
-	public Tile(Room room, int x, int y) {
-		this.room = room;
+	public Tile(Level level, int x, int y){
 		this.x = x;
 		this.y = y;
+		this.level = level;
 	}
-
 }
