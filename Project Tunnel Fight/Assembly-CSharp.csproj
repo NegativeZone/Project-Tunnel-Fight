@@ -45,12 +45,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Controllers\LevelBuilder.cs" />
-     <Compile Include="Assets\Models\LevelOne.cs" />
-     <Compile Include="Assets\Models\LevelTwo.cs" />
+     <Compile Include="Assets\Controllers\LevelController.cs" />
+     <Compile Include="Assets\Controllers\PlayerController.cs" />
+     <Compile Include="Assets\Models\Level.cs" />
      <Compile Include="Assets\Models\Player.cs" />
-     <Compile Include="Assets\Models\Room.cs" />
      <Compile Include="Assets\Models\Tile.cs" />
+     <None Include="Assets\Levels\L1.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
