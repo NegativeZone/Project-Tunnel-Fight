@@ -45,8 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Controllers\LevelBuilder.cs" />
      <Compile Include="Assets\Models\LevelOne.cs" />
      <Compile Include="Assets\Models\LevelTwo.cs" />
+     <Compile Include="Assets\Models\Player.cs" />
      <Compile Include="Assets\Models\Room.cs" />
      <Compile Include="Assets\Models\Tile.cs" />
  <Reference Include="UnityEngine.UI">
